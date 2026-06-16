@@ -16,12 +16,12 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="bg-gradient-blue">
 
-    <header class="flex padding-20">
+    <header class="flex space-between">
 
         <div class="accueil-plantopia">
-            <a href="index.html" class="bold font-size-40">Plantopia</a>
+            <a href="index.html" class="logo">Plantopia.</a>
         </div>
 
         <nav id="navBar">
@@ -31,11 +31,12 @@
                 <li><a href="">FAQ</a></li>
                 <li><a href="">Contact</a></li>
                 <li><a href="">Fonctionalités</a></li>
+                <li><a target="_blank" href="documentation.html">Documentation</a></li>
             </ul>
         </nav>
 
         <div class="télécharger-app">
-            <a href="#télécharger" class="btn bg-white black">Télécharger l'app</a>
+            <a href="#télécharger" class="btn bg-black blanc">Télécharger l'app</a>
         </div>
 
     </header>
@@ -44,60 +45,65 @@
 
         <section class="section-hero"> <!-- section hero -->
 
-            <div class="container-1000">
+            <div class="container-1000 flex space-between align-items-center">
 
-                <h1 class="mb-60">Découvrez les toutes</h1>
-                
-                <h2>Collectionnez vos observations et enrichissez vos connaissances</h2>
+                <!-- partie de gauche avec le texte-->
+                <div class="w-50">
 
-                <div class="mt-20"> <!-- div boutons -->
-                    <a href="" class="btn bg-white black">App Store</a>
-                    <a href="" class="btn bg-white black ml-10">Google Store</a>
+                    <h1>Découvrez-les toutes</h1>
+                    
+                    <h2>Collectionnez vos observations et enrichissez vos connaissances</h2>
+
+                    <div class="mt-20 flex gap-16"> <!-- div boutons -->
+                        <img src="./assets/image-android.png" alt="">
+                        <img src="./assets/image-apple.png" alt="">
+                    </div>
                 </div>
-            </div>
 
-            <div class="w-50 padding-20"> <!-- div qui englobe l'image -->
-                <img src="asset/architecte-interieur/couverture.png" alt="mockup-accueil" class="w-100">
+                <!-- partie de droite avec le mokup -->
+                <div class="w-50 self-end"> <!-- div qui englobe l'image -->
+                    <img src="assets/mockup-page-d'accueil.png" alt="mockup-accueil" class="w-80">
+                </div>
             </div>
 
         </section>
 
-        <section class="container-1200 padding-20"> <!-- section défis -->
+        <section class="padding-20 bg-gradient-white"> <!-- section défis -->
 
-            <div class="container-1000 flex space-between padding-20 mt-20">
+            <div class="container-1000 flex space-between align-items-center mt-50">
 
                 <div class="w-50 padding-20">
                     <h3 class="bleu">Défis</h3>
-                    <h4>Répertorie les principaux défis</h4>
-                    <p>Grace à cette page défis tu as accès tous les défis listés sur  une seule et meme page. Tout ça avec leur progression si ils ont été entamés.</p>
+                    <h4>Répertorie les <br> principaux défis</h4>
+                    <p class="mt-10">Grace à cette page défis tu as accès tous les défis listés sur  une seule et meme page. Tout ça avec leur progression si ils ont été entamés.</p>
 
                     <div class="mt-20"> <!-- div boutons -->
-                        <a href="" class="btn bg-white black">Découvrir plus</a>
+                        <a href="" class="flex align-items-center btn bg-vert black">Découvrir plus</a>
                     </div>
                 </div>
 
                 <div class="w-50 padding-20 mt-50"> <!-- div qui englobe l'image -->
-                    <img src="asset/architecte-interieur/couverture.png" alt="mockup-défis" class="w-100">
+                    <img src="assets/mockup-page-défis.png" alt="mockup-défis" class="mockup-reponsive">
                 </div>
             </div>
 
         </section>
 
-        <section class="container-1200 padding-20 bg-pale"> <!-- section Floredex -->
+        <section class="padding-20"> <!-- section Floredex -->
 
-            <div class="container-1000 flex space-between padding-20 mt-20">
+            <div class="container-1000 flex space-between align-items-center mt-50">
 
                 <div class="w-50 padding-20 mt-50"> <!-- div qui englobe l'image -->
-                    <img src="asset/architecte-interieur/couverture.png" alt="mockup-floredex" class="w-100">
+                    <img src="assets/mockup-page-floredex.png" alt="mockup-floredex" class="mockup-reponsive">
                 </div>
 
                 <div class="w-50 padding-20">
-                    <h3 class="bleu">Floredex</h3>
+                    <h3 class="blanc">Floredex</h3>
                     <h4>Range toutes tes plantes</h4>
                     <p>Cette page sert à trier toutes les plantes que tu as déjà trouver auparavant , avec une petite description comportant quelques détails.</p>
 
                     <div class="mt-20"> <!-- div boutons -->
-                        <a href="" class="btn bg-white black">Découvrir plus</a>
+                        <a href="" class="btn bg-vert">Découvrir plus</a>
                     </div>
                 </div>
 
@@ -105,9 +111,9 @@
 
         </section>
 
-        <section class="container-1200 padding-20"> <!-- section classement -->
+        <section class="padding-20 bg-gradient-white"> <!-- section classement -->
 
-            <div class="container-1000 flex space-between padding-20 mt-20">
+            <div class="container-1000 flex space-between align-items-center mt-50">
 
                 <div class="w-50 padding-20">
                     <h3 class="bleu">classement</h3>
@@ -115,28 +121,28 @@
                     <p>Cette page sert à afficher un classement local de tous les joueurs de l’application présent dans le département  du joueur.</p>
 
                     <div class="mt-20"> <!-- div boutons -->
-                        <a href="" class="btn bg-white black">Découvrir plus</a>
+                        <a href="" class="btn bg-vert">Découvrir plus</a>
                     </div>
                 </div>
 
                 <div class="w-50 padding-20 mt-50"> <!-- div qui englobe l'image -->
-                    <img src="asset/architecte-interieur/couverture.png" alt="mockup-classement" class="w-100">
+                    <img src="assets/mockup-page-classement.png" alt="mockup-classement" class="mockup-reponsive">
                 </div>
             </div>
 
         </section>
 
-        <section class="container-1200 padding-20 bg-pale"> <!-- section avis clients -->
+        <section class="padding-20"> <!-- section avis clients -->
 
             <div class="container-1000 padding-20 mt-20">
-                <h4>Avis clients</h4>
-                <p class="mt-20">Elle regroupe les notes, commentaires et impressions des clients, en mettant en avant les aspects positifs du service ainsi que les éventuelles améliorations.</p>
+                <h4 class="centrer">Avis clients</h4>
+                <p class="mt-20 centrer">Elle regroupe les notes, commentaires et impressions des clients, en mettant en <br> avant les aspects positifs du service ainsi que les éventuelles améliorations.</p>
 
                 <div class="container-1000 flex justify-content-center align-items-center"> <!-- div qui englobe le titre et les trois cards -->
 
                     <div class="flex space-around mt-20">  <!-- div des 3 cards -->
 
-                        <div class="w-30 bg-grey padding-20 border-radius-20 border-1"> <!-- card 1 -->
+                        <div class="w-30 bg-white padding-10 border-radius-20 border-1"> <!-- card 1 -->
 
                             <div> <!-- div image, titre et paragraphes -->
 
@@ -148,7 +154,7 @@
 
                                     <div class="ml-10 mt-10"> <!-- div prénom et paragraphe -->
                                         <p class="bold">Emma, 31 ans</p>
-                                        <p class="mt-5 grey">Rénovation d'appartement</p>
+                                        <p class="mt-5 grey">Botanique</p>
                                     </div>
                                 </div>
 
@@ -160,13 +166,15 @@
                                     <i class="ph-fill ph-star jaune font-size-20"></i>
                                     <i class="ph-fill ph-star jaune font-size-20"></i>
                                     <i class="ph-fill ph-star jaune font-size-20"></i>
+                                    <i class="ph-fill ph-star jaune font-size-20"></i>
+                                    <i class="ph-fill ph-star jaune font-size-20"></i>
                                 </div>
 
                             </div>
 
                         </div>
                         
-                        <div class="w-30 bg-grey padding-20 margin-left-10 border-radius-20 border-1"> <!-- card 2 -->
+                        <div class="w-30 bg-white padding-10 margin-left-10 border-radius-20 border-1"> <!-- card 2 -->
 
                             <div> <!-- div image, titre et paragraphes -->
 
@@ -178,7 +186,7 @@
 
                                     <div class="ml-10 mt-10"> <!-- div prénom et paragraphe -->
                                         <p class="bold">Lucas, 24 ans</p>
-                                        <p class="mt-5 grey">Aménagement de bureau</p>
+                                        <p class="mt-5 grey">Jardinier</p>
                                     </div>
 
                                 </div>
@@ -191,13 +199,15 @@
                                     <i class="ph-fill ph-star jaune font-size-20"></i>
                                     <i class="ph-fill ph-star jaune font-size-20"></i>
                                     <i class="ph-fill ph-star jaune font-size-20"></i>
+                                    <i class="ph-fill ph-star jaune font-size-20"></i>
+                                    <i class="ph-fill ph-star jaune font-size-20"></i>
                                 </div>
 
                             </div>
 
                         </div>
 
-                        <div class="w-30 bg-grey padding-20 margin-left-10 border-radius-20 border-1"> <!-- card 3 -->
+                        <div class="w-30 bg-white padding-10 margin-left-10 border-radius-20 border-1"> <!-- card 3 -->
 
                             <div> <!-- div image, titre et paragraphes -->
 
@@ -207,7 +217,7 @@
 
                                     <div class="ml-10 mt-10"> <!-- div prénom et paragraphe -->
                                         <p class="bold">Hugo, 19 ans</p>
-                                        <p class="mt-5 grey">Décoration intérieure</p>
+                                        <p class="mt-5 grey">Paysagiste</p>
                                     </div>
 
                                 </div>
@@ -220,6 +230,8 @@
                                     <i class="ph-fill ph-star jaune font-size-20"></i>
                                     <i class="ph-fill ph-star jaune font-size-20"></i>
                                     <i class="ph-fill ph-star jaune font-size-20"></i>
+                                    <i class="ph-fill ph-star jaune font-size-20"></i>
+                                    <i class="ph-fill ph-star jaune font-size-20"></i>
                                 </div>
 
                             </div>
@@ -233,24 +245,18 @@
 
         </section>
 
-        <section class="container-1200 padding-20 bg-green"> <!-- section télécharger l'application -->
+        <section class="padding-20 bg-gradient-white"> <!-- section télécharger l'application -->
 
             <div class="container-1000 flex justify-content-center padding-20 mt-20">
                 <h4>Télécharger notre application gratuitement</h4>
             </div>
 
-            <div class="container-1000 flex justify-content-center padding-20 mt-20"> <!-- div boutons -->
-                <a href="" class="btn bg-white black">App Store</a>
-                <a href="" class="btn bg-white black ml-10">Google Store</a>
-            </div>
+            <div class="container-1000 flex justify-content-center">
 
-        </section>
-
-        <section class="container-1200 padding-20"> <!-- section équipe -->
-
-            <div class="container-1000 flex space-between padding-20 mt-20">
-                <h4>L'équipe</h4>
-
+                <div class="flex gap-16"> <!-- div boutons -->
+                    <img src="./assets/image-android.png" alt="">
+                    <img src="./assets/image-apple.png" alt="">
+                </div>
 
             </div>
 
@@ -258,85 +264,84 @@
 
     </main>
 
-    <footer class="container-1200 padding-20">
+    <!-- nuages -->
+    <div class="cloud cloud-1">
+        <img src="./assets/nuage1.png" alt="">
+    </div>
 
-        <div class="flex space-between container-1000">
+    <div class="cloud cloud-2">
+        <img src="./assets/nuage2.png" alt="">
+    </div>
 
-            <div class="w-30">
-                <p class="ml-10 cyan">Plan du site</p>
+    <footer class="padding-20 mt-20">
 
-                <div class="mt-10">
-                    <p>Accueil</p>
-                    <p>A propos</p>
-                    <p>FAQ</p>
-                    <p>Contact</p>
-                    <p>fonctionnalités</p>
-                </div>
+        <div class="container-1000">
 
+            <div class="flex justify-content-center">
+                <p class="blanc font-size-40">Plantopia.</p>
             </div>
 
-            <div class="w-30">
-                <p class="ml-10 cyan">politiques</p>
+            <div class="flex space-between mt-50">
 
-                <div class="mt-10">
-                    <p>politique de confidentialités</p>
-                    <p>mentions légales</p>
-                </div>
-
-                <div class="mt-50"> <!-- div boutons -->
-                    <a href="" class="btn bg-white black">App Store</a>
-                    <a href="" class="btn bg-white black ml-10">Google Store</a>
-                </div>
-            </div>
-
-            <div class="w-30">
                 <div class="">
-                    <img src="" alt="plantopia">
+                    <p class="blanc">Politiques</p>
+                    <p class="blanc">Politiques de confidentialités</p>
+                    <p class="blanc">Mentions légales</p>
                 </div>
 
-                <form class="formulaire">
+                <div class="ml-10">
+                    <p class="blanc">Rejoignez-nous</p>
+                    <p class="blanc">A propos de nous</p>
+                    <p class="blanc">contacter-nous</p>
+                </div>
+
+                <div class="ml-10">
+                    <p class="blanc">Engagement écologique</p>
+                    <p class="blanc"> Hébergé sur des éco-serveurs afin de <br> réduire notre empreinte carbone</p>
+                </div>
+
+                <div class="ml-10">
+                    <p class="blanc">Ressources</p>
+                    <p class="blanc">Centre d'aide</p>
+                    <p class="blanc">FAQ</p>
+                </div>
+
+            </div>
+
+            <div class="w-30 ml-100">
+
+                <form class="formulaire mt-50">
                     <input type="email" placeholder="Entrez votre email" required>
                     <button type="submit" id="plane">
                         <svg width="28" height="28" fill="none" viewBox="0 0 24 24">
-                        <path d="M2 21L23 12L2 3V10L17 12L2 14V21Z" fill="white" />
-                    </svg>
+                            <path d="M2 21L23 12L2 3V10L17 12L2 14V21Z" fill="white" />
+                        </svg>
                     </button>
                 </form>
-
-                <section id="network">
-                    <img src="img/socialMediaLogos/facebook.png" class="socialImg">
-                    <img src="img/socialMediaLogos/instagram.png" class="socialImg">
-                    <img src="img/socialMediaLogos/tiktok.png" class="socialImg">
-                    <img src="img/socialMediaLogos/twitter.png" class="socialImg">
-                </section>
-
-                <div class="flex margin-top-20"> <!-- div des réseaux -->
+                
+                <div class="flex mt-20"> <!-- div des réseaux -->
 
                     <div class="w-5">
                         <a target="_blank" href="https://discord.com">
-                            <i class="ph ph-discord-logo"></i>
+                            <i class="ph-fill ph-x-logo font-size-40"></i>
                         </a>
                     </div>
-                    <div class="w-5">
+                    <div class="w-5 ml-5">
                         <a target="_blank" href="https://fr-fr.facebook.com">
-                            <i class="ph-fill ph-facebook-logo"></i>
+                            <i class="ph ph-instagram-logo font-size-40"></i>
                         </a>
                     </div>
-                    <div class="w-5">
+                    <div class="w-5 ml-5">
                         <a target="_blank" href="https://dribbble.com">
-                            <i class="ph ph-dribbble-logo"></i>
+                            <i class="ph-fill ph-facebook-logo font-size-40"></i>
                         </a>
                     </div>
-                    <div class="w-5">
+                    <div class="w-5 ml-5">
                         <a target="_blank" href="https://www.instagram.com">
-                            <i class="ph ph-instagram-logo"></i>
+                            <i class="ph-fill ph-tiktok-logo font-size-40"></i>
                         </a>
                     </div>
-                    <div class="w-5">
-                        <a target="_blank" href="https://www.behance.net">
-                            <i class="ph ph-behance-logo"></i>
-                        </a>
-                    </div>
+            
                 </div>
             </div>
 
