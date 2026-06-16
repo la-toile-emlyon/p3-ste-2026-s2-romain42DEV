@@ -99,8 +99,14 @@ li {
     text-align: center;
 }
 
+/* Largeurs */
+
 .w-100{
     width: 100%;
+}
+
+.w-80{
+    width: 80%;
 }
 
 .w-50{
@@ -110,9 +116,11 @@ li {
 .w-30{
     width: 30%;
 }
-.w-80{
-    width: 80%;
+
+.w-20{
+    width: 20%;
 }
+
 .mockup-reponsive{
     width: 70%;
     display: block;
@@ -188,6 +196,14 @@ p {
 
 .ml-100 {
     margin-left: 700px;
+}
+
+.sommaire {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #00DF77;
+    padding: 20px;
 }
 
 .accueil-plantopia{
