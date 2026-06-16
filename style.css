@@ -87,6 +87,10 @@ li {
     align-items: center;
 }
 
+.centrer{
+    text-align: center;
+}
+
 .w-100{
     width: 100%;
 }
@@ -99,8 +103,12 @@ li {
     width: 30%;
 }
 
+.padding-10 {
+    padding: 10px;
+}
+
 .padding-20 {
-    padding: 20px;
+    padding: 20px 0;
 }
 
 a {
@@ -149,8 +157,16 @@ p {
     margin-top: 50px;
 }
 
+.ml-5 {
+    margin-left: 5px;
+}
+
 .ml-10 {
     margin-left: 10px;
+}
+
+.ml-100 {
+    margin-left: 700px;
 }
 
 .accueil-plantopia{
@@ -206,7 +222,30 @@ p {
     background-color: #EDE9E6;
 }
 
+/*Background bleu dégradé */
+.bg-gradient-blue{
+    background: rgba(172, 230, 237, 1);
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(172, 230, 237, 1) 20%, rgba(172, 230, 237, 1) 80%, rgba(255, 255, 255, 1) 100%);
+    background-attachment: fixed;
+}
+.bg-gradient-white{
+    background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    transparent 2%,
+    white 50%,
+    transparent 98%,
+    transparent 100%
+);
+    background-attachment: fixed;
+    background-size: contain;
+}
+
 .black {
+ color: black;
+}
+
+.blanc {
  color: white;
 }
 
@@ -244,6 +283,52 @@ p {
 
 .border-1{
     border: 2px solid black;
+}
+
+.formulaire {
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    border-radius: 32px;
+    overflow: hidden;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+    background: #fff;
+    max-width: 400px;
+}
+
+.formulaire input[type="email"] {
+    border: none;
+    outline: none;
+    padding: 18px 20px;
+    font-size: 1.1rem;
+    flex: 1;
+    background: transparent;
+    color: #444;
+    font-family: "Inter", sans-serif;
+}
+
+.formulaire input::placeholder {
+    color: #888;
+    opacity: 1;
+}
+
+
+#plane {
+    background: linear-gradient(45deg, #FB87A7 80%, #FFEAFC 100%);
+    border: none;
+    outline: none;
+    padding: 0 28px;
+    height: 57px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.18s;
+    border-radius: 0 32px 32px 0;
+}
+
+#plane svg {
+    display: block;
 }
 
 footer {
