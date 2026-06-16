@@ -11,12 +11,17 @@ header {
     position: sticky;
     justify-content: space-between;
     align-items: center;
+    display: flex;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: grey;
+    background-color: #fff;
+    padding: 4px 64px;
 }
-
+.logo{
+    font-weight: bold;
+    font-size: 30px;
+}
 ul {
     display: flex;
     justify-content: space-between;
@@ -31,11 +36,11 @@ li {
 
 
 .section-hero {
-    height: 70vh;
+    height: calc(100vh - 87px);
     /* 100% de la hauteur de l'écran */
-    background-image: url(asset/hero.jpg);
+    background-image: url(assets/image-bg.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -71,6 +76,9 @@ li {
     flex-wrap: nowrap;
 }
 
+.flex-end{
+    align-self: flex-end;
+}
 .space-between {
     justify-content: space-between;
 }
@@ -96,11 +104,20 @@ li {
 }
 
 .w-50{
-    width: 50%;
+    width: 48%;
 }
 
 .w-30{
     width: 30%;
+}
+.w-80{
+    width: 80%;
+}
+.mockup-reponsive{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .padding-10 {
@@ -119,19 +136,23 @@ a {
 
 h1 {
     font-weight: bold;
-    font-size: 80px;
+    font-size: 50px;
 }
 
 h2 {
     font-weight: 400;
-    font-size: 25px;
+    font-size: 14px;
 }
 
 h3 {
     font-weight: 600;
     font-size: 20px;
 }
-
+section h3{
+    font-size: 64px;
+    font-style: italic;
+    font-weight: bold;
+}
 h4 {
     font-weight: 500;
     font-size: 18px;
@@ -170,43 +191,32 @@ p {
 }
 
 .accueil-plantopia{
-    margin-top:2px;
-    margin-left:18px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    padding: 18px 40px;
+    padding: 10px 20px;
 }
 
 
 .télécharger-app{
-    margin-top:8px;
-    margin-left:900px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    padding: 18px 40px;
+    padding: 10px 20px;
 }
 
 #navBar {
-    margin-left: 350px;
-    background-color: #0B7A43;
+    background-color: #00DF77;
     border-radius: 20px;
-    padding: 18px 40px;
+    padding: 10px 40px;
 }
 
 
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    border-radius:10px;
+    border-radius: 20px;
 }
 
 .bg-white {
+    background-color: white;
+}
+
+.bg-black {
     background-color: black;
 }
 
@@ -218,28 +228,112 @@ p {
     background-color: #0B7A43;
 }
 
+.bg-vert {
+    background-color: #00DF77;
+}
+
 .bg-grey {
     background-color: #EDE9E6;
 }
 
 /*Background bleu dégradé */
 .bg-gradient-blue{
-    background: rgba(172, 230, 237, 1);
-    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(172, 230, 237, 1) 20%, rgba(172, 230, 237, 1) 80%, rgba(255, 255, 255, 1) 100%);
+      background: linear-gradient(
+        0deg,
+        rgb(255, 255, 255) 0%,
+        rgb(172, 230, 237) 20%,
+        rgb(172, 230, 237) 80%,
+        rgb(255, 255, 255) 100%
+    );
+
     background-attachment: fixed;
+    min-height: 100vh;
 }
 .bg-gradient-white{
+    min-height: 100vh;
+
     background: linear-gradient(
-    to bottom,
-    transparent 0%,
-    transparent 2%,
-    white 50%,
-    transparent 98%,
-    transparent 100%
-);
-    background-attachment: fixed;
-    background-size: contain;
+        to bottom,
+        rgba(255,255,255,0) 0%,
+        rgba(255,255,255,0) 10%,
+        rgba(255,255,255,1) 35%,
+        rgba(255,255,255,1) 65%,
+        rgba(255,255,255,0) 90%,
+        rgba(255,255,255,0) 100%
+    );
 }
+/*aniamation des nuages*/
+.cloud {
+    position: fixed;
+    pointer-events: none;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.cloud img {
+    width: 100%;
+   
+}
+.cloud-1 {
+    width: 220px;
+    top: 15vh;
+    left: 8vw;
+
+    animation: float1 22s ease-in-out infinite;
+}
+
+.cloud-2 {
+    width: 180px;
+    top: 70vh;
+    right: 12vw;
+
+    animation: float2 28s ease-in-out infinite;
+}
+
+@keyframes float1 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    25% {
+        transform: translate(60px, -30px);
+    }
+
+    50% {
+        transform: translate(40px, 5px);
+    }
+
+    75% {
+        transform: translate(20px, 15px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes float2 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    25% {
+        transform: translate(-15px, 10px);
+    }
+
+    50% {
+        transform: translate(-35px, -5px);
+    }
+
+    75% {
+        transform: translate(-20px, -15px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
 
 .black {
  color: black;

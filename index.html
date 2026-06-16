@@ -18,10 +18,10 @@
 </head>
 <body class="bg-gradient-blue">
 
-    <header class="flex padding-20">
+    <header class="flex space-between">
 
         <div class="accueil-plantopia">
-            <a href="index.html" class="bold font-size-40">Plantopia.</a>
+            <a href="index.html" class="logo">Plantopia.</a>
         </div>
 
         <nav id="navBar">
@@ -31,11 +31,12 @@
                 <li><a href="">FAQ</a></li>
                 <li><a href="">Contact</a></li>
                 <li><a href="">Fonctionalités</a></li>
+                <li><a href="documentation.html">Documentation</a></li>
             </ul>
         </nav>
 
         <div class="télécharger-app">
-            <a href="#télécharger" class="btn bg-white blanc">Télécharger l'app</a>
+            <a href="#télécharger" class="btn bg-black blanc">Télécharger l'app</a>
         </div>
 
     </header>
@@ -46,22 +47,22 @@
 
             <div class="container-1000 flex space-between align-items-center">
 
-                <!-- partie de droite avec le texte-->
+                <!-- partie de gauche avec le texte-->
                 <div class="w-50">
 
                     <h1>Découvrez-les toutes</h1>
                     
                     <h2>Collectionnez vos observations et enrichissez vos connaissances</h2>
 
-                    <div class="mt-20"> <!-- div boutons -->
-                        <a href="" class="btn bg-white blanc">App Store</a>
-                        <a href="" class="btn bg-white blanc ml-10">Google Store</a>
+                    <div class="mt-20 flex gap-16"> <!-- div boutons -->
+                        <img src="./assets/image-android.png" alt="">
+                        <img src="./assets/image-apple.png" alt="">
                     </div>
                 </div>
 
                 <!-- partie de droite avec le mokup -->
-                <div class="w-50 padding-20"> <!-- div qui englobe l'image -->
-                    <img src="" alt="mockup-accueil" class="w-100">
+                <div class="w-50 self-end"> <!-- div qui englobe l'image -->
+                    <img src="assets/mockup-page-d'accueil.png" alt="mockup-accueil" class="w-80">
                 </div>
             </div>
 
@@ -69,40 +70,40 @@
 
         <section class="padding-20 bg-gradient-white"> <!-- section défis -->
 
-            <div class="container-1000 flex space-between padding-20 mt-20">
+            <div class="container-1000 flex space-between align-items-center mt-50">
 
                 <div class="w-50 padding-20">
                     <h3 class="bleu">Défis</h3>
-                    <h4>Répertorie les principaux défis</h4>
-                    <p>Grace à cette page défis tu as accès tous les défis listés sur  une seule et meme page. Tout ça avec leur progression si ils ont été entamés.</p>
+                    <h4>Répertorie les <br> principaux défis</h4>
+                    <p class="mt-10">Grace à cette page défis tu as accès tous les défis listés sur  une seule et meme page. Tout ça avec leur progression si ils ont été entamés.</p>
 
                     <div class="mt-20"> <!-- div boutons -->
-                        <a href="" class="btn bg-white blanc">Découvrir plus</a>
+                        <a href="" class="flex align-items-center btn bg-vert black">Découvrir plus</a>
                     </div>
                 </div>
 
                 <div class="w-50 padding-20 mt-50"> <!-- div qui englobe l'image -->
-                    <img src="asset/architecte-interieur/couverture.png" alt="mockup-défis" class="w-100">
+                    <img src="assets/mockup-page-défis.png" alt="mockup-défis" class="mockup-reponsive">
                 </div>
             </div>
 
         </section>
 
-        <section class="padding-20 bg-gradient-white"> <!-- section Floredex -->
+        <section class="padding-20"> <!-- section Floredex -->
 
-            <div class="container-1000 flex space-between padding-20 mt-20">
+            <div class="container-1000 flex space-between align-items-center mt-50">
 
                 <div class="w-50 padding-20 mt-50"> <!-- div qui englobe l'image -->
-                    <img src="asset/architecte-interieur/couverture.png" alt="mockup-floredex" class="w-100">
+                    <img src="assets/mockup-page-floredex.png" alt="mockup-floredex" class="mockup-reponsive">
                 </div>
 
                 <div class="w-50 padding-20">
-                    <h3 class="bleu">Floredex</h3>
+                    <h3 class="blanc">Floredex</h3>
                     <h4>Range toutes tes plantes</h4>
                     <p>Cette page sert à trier toutes les plantes que tu as déjà trouver auparavant , avec une petite description comportant quelques détails.</p>
 
                     <div class="mt-20"> <!-- div boutons -->
-                        <a href="" class="btn bg-white blanc">Découvrir plus</a>
+                        <a href="" class="btn bg-vert">Découvrir plus</a>
                     </div>
                 </div>
 
@@ -110,9 +111,9 @@
 
         </section>
 
-        <section class="padding-20"> <!-- section classement -->
+        <section class="padding-20 bg-gradient-white"> <!-- section classement -->
 
-            <div class="container-1000 flex space-between padding-20 mt-20">
+            <div class="container-1000 flex space-between align-items-center mt-50">
 
                 <div class="w-50 padding-20">
                     <h3 class="bleu">classement</h3>
@@ -120,28 +121,28 @@
                     <p>Cette page sert à afficher un classement local de tous les joueurs de l’application présent dans le département  du joueur.</p>
 
                     <div class="mt-20"> <!-- div boutons -->
-                        <a href="" class="btn bg-white blanc">Découvrir plus</a>
+                        <a href="" class="btn bg-vert">Découvrir plus</a>
                     </div>
                 </div>
 
                 <div class="w-50 padding-20 mt-50"> <!-- div qui englobe l'image -->
-                    <img src="asset/architecte-interieur/couverture.png" alt="mockup-classement" class="w-100">
+                    <img src="assets/mockup-page-classement.png" alt="mockup-classement" class="mockup-reponsive">
                 </div>
             </div>
 
         </section>
 
-        <section class="padding-20 bg-gradient-white"> <!-- section avis clients -->
+        <section class="padding-20"> <!-- section avis clients -->
 
             <div class="container-1000 padding-20 mt-20">
-                <h4>Avis clients</h4>
-                <p class="mt-20">Elle regroupe les notes, commentaires et impressions des clients, en mettant en avant les aspects positifs du service ainsi que les éventuelles améliorations.</p>
+                <h4 class="centrer">Avis clients</h4>
+                <p class="mt-20 centrer">Elle regroupe les notes, commentaires et impressions des clients, en mettant en <br> avant les aspects positifs du service ainsi que les éventuelles améliorations.</p>
 
                 <div class="container-1000 flex justify-content-center align-items-center"> <!-- div qui englobe le titre et les trois cards -->
 
                     <div class="flex space-around mt-20">  <!-- div des 3 cards -->
 
-                        <div class="w-30 bg-grey padding-10 border-radius-20 border-1"> <!-- card 1 -->
+                        <div class="w-30 bg-white padding-10 border-radius-20 border-1"> <!-- card 1 -->
 
                             <div> <!-- div image, titre et paragraphes -->
 
@@ -165,13 +166,15 @@
                                     <i class="ph-fill ph-star jaune font-size-20"></i>
                                     <i class="ph-fill ph-star jaune font-size-20"></i>
                                     <i class="ph-fill ph-star jaune font-size-20"></i>
+                                    <i class="ph-fill ph-star jaune font-size-20"></i>
+                                    <i class="ph-fill ph-star jaune font-size-20"></i>
                                 </div>
 
                             </div>
 
                         </div>
                         
-                        <div class="w-30 bg-grey padding-10 margin-left-10 border-radius-20 border-1"> <!-- card 2 -->
+                        <div class="w-30 bg-white padding-10 margin-left-10 border-radius-20 border-1"> <!-- card 2 -->
 
                             <div> <!-- div image, titre et paragraphes -->
 
@@ -196,13 +199,15 @@
                                     <i class="ph-fill ph-star jaune font-size-20"></i>
                                     <i class="ph-fill ph-star jaune font-size-20"></i>
                                     <i class="ph-fill ph-star jaune font-size-20"></i>
+                                    <i class="ph-fill ph-star jaune font-size-20"></i>
+                                    <i class="ph-fill ph-star jaune font-size-20"></i>
                                 </div>
 
                             </div>
 
                         </div>
 
-                        <div class="w-30 bg-grey padding-10 margin-left-10 border-radius-20 border-1"> <!-- card 3 -->
+                        <div class="w-30 bg-white padding-10 margin-left-10 border-radius-20 border-1"> <!-- card 3 -->
 
                             <div> <!-- div image, titre et paragraphes -->
 
@@ -225,6 +230,8 @@
                                     <i class="ph-fill ph-star jaune font-size-20"></i>
                                     <i class="ph-fill ph-star jaune font-size-20"></i>
                                     <i class="ph-fill ph-star jaune font-size-20"></i>
+                                    <i class="ph-fill ph-star jaune font-size-20"></i>
+                                    <i class="ph-fill ph-star jaune font-size-20"></i>
                                 </div>
 
                             </div>
@@ -238,24 +245,18 @@
 
         </section>
 
-        <section class="padding-20 bg-green"> <!-- section télécharger l'application -->
+        <section class="padding-20 bg-gradient-white"> <!-- section télécharger l'application -->
 
             <div class="container-1000 flex justify-content-center padding-20 mt-20">
                 <h4>Télécharger notre application gratuitement</h4>
             </div>
 
-            <div class="container-1000 flex justify-content-center padding-20 mt-20"> <!-- div boutons -->
-                <a href="" class="btn bg-white blanc">App Store</a>
-                <a href="" class="btn bg-white blanc ml-10">Google Store</a>
-            </div>
+            <div class="container-1000 flex justify-content-center">
 
-        </section>
-
-        <section class="container-1200 padding-20"> <!-- section équipe -->
-
-            <div class="container-1000 flex space-between padding-20 mt-20">
-                <h4>L'équipe</h4>
-
+                <div class="flex gap-16"> <!-- div boutons -->
+                    <img src="./assets/image-android.png" alt="">
+                    <img src="./assets/image-apple.png" alt="">
+                </div>
 
             </div>
 
@@ -263,7 +264,16 @@
 
     </main>
 
-    <footer class="container-1200 padding-20">
+    <!-- nuages -->
+    <div class="cloud cloud-1">
+        <img src="./assets/nuage1.png" alt="">
+    </div>
+
+    <div class="cloud cloud-2">
+        <img src="./assets/nuage2.png" alt="">
+    </div>
+
+    <footer class="padding-20 mt-20">
 
         <div class="container-1000">
 
