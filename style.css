@@ -17,7 +17,9 @@ header {
     width: 100%;
     background-color: #fff;
     padding: 4px 64px;
+    z-index: 100;
 }
+
 .logo{
     font-weight: bold;
     font-size: 30px;
@@ -136,6 +138,10 @@ li {
     padding: 20px 0;
 }
 
+.padding-30 {
+    padding: 30px;
+}
+
 a {
     text-decoration: none;
     color: #2E2A26;
@@ -156,11 +162,13 @@ h3 {
     font-weight: 600;
     font-size: 20px;
 }
+
 section h3{
     font-size: 64px;
     font-style: italic;
     font-weight: bold;
 }
+
 h4 {
     font-weight: 500;
     font-size: 18px;
@@ -194,6 +202,14 @@ p {
     margin-left: 10px;
 }
 
+.ml-50 {
+    margin-left: 50px;
+}
+
+.ml-500 {
+    margin-left: 500px;
+}
+
 .ml-100 {
     margin-left: 700px;
 }
@@ -204,6 +220,8 @@ p {
     left: 0;
     background-color: #00DF77;
     padding: 20px;
+    margin-top: 20px;
+    border-radius: 30px;
 }
 
 .accueil-plantopia{
@@ -250,6 +268,10 @@ p {
 
 .bg-grey {
     background-color: #EDE9E6;
+}
+
+.bg-bleu-clair {
+    background-color: #E1F9F2;
 }
 
 /*Background bleu dégradé */
@@ -375,6 +397,10 @@ p {
  color: grey;
 }
 
+span {
+    font-weight: bold;
+}
+
 .bold{
   font-weight:600;
 }
@@ -393,6 +419,17 @@ p {
 
 .border-1{
     border: 2px solid black;
+}
+
+.card-cible {
+    width: 440px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.card-problematique {
+    width: 800px;
+    height: 180px;
 }
 
 .formulaire {
