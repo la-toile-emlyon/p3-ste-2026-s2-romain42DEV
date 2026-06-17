@@ -171,7 +171,7 @@ section h3{
 
 h4 {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 p {
@@ -222,6 +222,8 @@ p {
     padding: 20px;
     margin-top: 20px;
     border-radius: 30px;
+    width: 240px;
+    height: 300px;
 }
 
 .accueil-plantopia{
@@ -268,6 +270,10 @@ p {
 
 .bg-grey {
     background-color: #EDE9E6;
+}
+
+.bg-gris {
+    background-color: #D5D5D5;
 }
 
 .bg-bleu-clair {
@@ -402,7 +408,7 @@ span {
 }
 
 .bold{
-  font-weight:600;
+  font-weight:700;
 }
 
 .font-size-20{
