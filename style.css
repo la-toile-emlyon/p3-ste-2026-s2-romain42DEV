@@ -550,6 +550,40 @@ span {
     display: block;
 }
 
+
+#contexte {
+    scroll-margin-top: 60px;
+}
+
+#persona {
+    scroll-margin-top: 60px;
+}
+
+#problematique {
+    scroll-margin-top: 80px;
+}
+
+#benchmark {
+    scroll-margin-top: 80px;
+}
+
+#userflow {
+    scroll-margin-top: 60px;
+}
+
+#solution {
+    scroll-margin-top: 60px;
+}
+
+#tests {
+    scroll-margin-top: 60px;
+}
+
+#perspectives {
+    scroll-margin-top: 60px;
+}
+
+
 footer {
     background-color: #0B7A43;
 }
