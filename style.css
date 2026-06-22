@@ -257,7 +257,7 @@ p {
 
 .sommaire {
     position: sticky;
-    top: 0;
+    top: 100px;
     left: 0;
     background-color: #00DF77;
     padding: 20px;
@@ -266,6 +266,10 @@ p {
     width: 240px;
     height: 300px;
     cursor: pointer;
+}
+
+.sommaire a{
+    display: block;
 }
 
 .accueil-plantopia{
@@ -502,6 +506,11 @@ span {
 .card-problematique {
     width: 800px;
     height: 100px;
+}
+
+.image{
+    width: 40px;
+    height: 40px;
 }
 
 .formulaire {
