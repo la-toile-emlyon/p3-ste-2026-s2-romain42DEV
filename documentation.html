@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Documentation</title>
 
     <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" 
-    />
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
 
     <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" 
-    />
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- HEADER -->
     <header class="flex space-between">
@@ -36,13 +36,15 @@
 
     </header>
     <main>
-        <!-- BARRE NAV + TEXTE -->        
+
+        <!-- BARRE NAV GAUCHE -->
         <section class="flex">
 
             <div class="container-1000 sommaire w-20"> <!-- section sommaire -->
                 <h4 class="bold">Sommaire</h4>
 
                 <div class="mt-10">
+                    <a href="#thematique" class="">Thématique</a>
                     <a href="#contexte" class="">Contexte</a>
                     <a href="#persona" class="">Persona</a>
                     <a href="#problematique" class="">Problématique</a>
@@ -56,40 +58,64 @@
 
             </div>
 
-            <div class="container-1000 w-80" id="contexte"> 
+        
+            <div class="container-1000 w-80" id="contexte">
 
-                <!-- section contexte -->
+                <!-- thématique -->
 
-                <section class="mt-20">
+                <section class="mt-20" id="thématique">
+
+                    <div>
+                        <h4 class="bold">Thématique</h4>
+                    </div>
+
+                    <div>
+                        <p class="mt-20">“Favoriser la connaissance et la préservation de la biodiversité locale.”</p>
+                    </div>
+
+                </section>
+
+                <!-- contexte -->
+
+                <section class="mt-64">
 
                     <div class="flex">
                         <h4 class="bold">Contexte</h4>
                     </div>
-                    
+
                     <div class="flex space-between mt-20">
 
                         <div class="w-50">
                             <p class="bold vert">Quand ?</p>
 
-                            <p class="mt-10 vert">Le projet est conçu pour être utilisé tout au long de <br> l'année, lors des sorties en extérieur, promenades, <br> randonnées ou déplacements quotidiens.</p>
+                            <p class="mt-10 vert">Le projet est conçu pour être utilisé tout au long de <br> l'année,
+                                lors des sorties en extérieur, promenades, <br> randonnées ou déplacements quotidiens.
+                            </p>
                         </div>
 
                         <div class="w-50">
                             <p class="bold vert">Où ?</p>
 
-                            <p class="mt-10 vert">L'application est destinée à être utilisée dans les <br> espaces naturels et urbains d'une ville : parcs, jardins <br> publics, forêts, zones humides, berges, espaces verts, <br> quartiers résidentiels ou encore établissements scolaires.</p>
+                            <p class="mt-10 vert">L'application est destinée à être utilisée dans les <br> espaces
+                                naturels et urbains d'une ville : parcs, jardins <br> publics, forêts, zones humides,
+                                berges, espaces verts, <br> quartiers résidentiels ou encore établissements scolaires.
+                            </p>
                         </div>
 
                         <div class="w-50 mt-20">
                             <p class="bold vert">Qui ?</p>
 
-                            <p class="mt-10 vert">Le projet s'adresse à : Les habitants souhaitant découvrir la nature qui les entoure. Les étudiants et élèves dans le cadre d'activités pédagogiques, les associations environnementales.</p>
+                            <p class="mt-10 vert">Le projet s'adresse à : Les habitants souhaitant découvrir la nature
+                                qui les entoure. Les étudiants et élèves dans le cadre d'activités pédagogiques, les
+                                associations environnementales.</p>
                         </div>
 
                         <div class="w-50 mt-20">
                             <p class="bold vert">Pourquoi ?</p>
 
-                            <p class="mt-10 vert">La biodiversité locale est souvent méconnue malgré son importance pour l'équilibre des écosystèmes. De nombreuses informations existent mais restent dispersées et peu accessibles au grand public.</p>
+                            <p class="mt-10 vert">La biodiversité locale est souvent méconnue malgré son importance pour
+                                l'équilibre des écosystèmes. De nombreuses informations existent mais restent dispersées
+                                et peu accessibles au grand public.</p>
                         </div>
 
                     </div>
@@ -97,44 +123,47 @@
                 </section>
 
 
-                <!-- section persona -->
+                <!-- PERSONA -->
 
-                <section class="mt-128" id="persona">
+                <section class="mt-64" id="persona">
 
                     <div>
                         <h4 class="bold">Persona</h4>
                     </div>
-                    
-                    <div class="mt-10">
+
+                    <div class="mt-10 border-1 border-radius-20">
                         <img src="assets/persona.png" alt="persona" class="w-100">
                     </div>
 
                 </section>
 
 
-                <!-- section problématique -->
+                <!-- PROBLEMATIQUE -->
 
-                <section class="mt-128" id="problematique">
+                <section class="mt-64" id="problematique">
 
                     <div>
                         <h4 class="bold">Problématique</h4>
                     </div>
-                    
+
                     <div class="mt-20 bg-vert padding-30 border-radius-20 card-problematique">
-                        <p class="font-size-20">Comment Alex peut-il participer à la <span>collecte</span>, à la <span>transmission</span> et à la <span>diffusion</span> de connaissances sur la biodiversité de sa ville ?</p>
+                        <p class="font-size-20">Comment Alex peut-il participer à la <span>collecte</span>, à la
+                            <span>transmission</span> et à la <span>diffusion</span> de connaissances sur la
+                            biodiversité de sa ville ?
+                        </p>
                     </div>
 
                 </section>
 
 
-                <!-- section benchmark -->
+                <!-- BENCHMARK -->
 
-                <section class="mt-128" id="benchmark">
+                <section class="mt-64" id="benchmark">
 
                     <div>
                         <h4 class="bold">Benchmark</h4>
                     </div>
-                    
+
                     <div class="mt-20">
 
                         <div class="mt-50"> <!-- div paragraphes -->
@@ -142,13 +171,15 @@
                             <div class="flex align-items-center">
 
                                 <div class="w-20">
-                                    <img src="assets/plantnet.png" alt="plantNet" class="w-80"> 
+                                    <img src="assets/plantnet.png" alt="plantNet" class="w-80">
                                 </div>
 
                                 <div class="w-80">
-                                    <p class="vert"><span>PlantNet</span> : Identification des plantes à partir de photos. Principalement centré sur les plantes, peu d'aspect ludique et de gamification.</p>
+                                    <p class="vert"><span>PlantNet</span> : Identification des plantes à partir de
+                                        photos. Principalement centré sur les plantes, peu d'aspect ludique et de
+                                        gamification.</p>
                                 </div>
-                                 
+
                             </div>
 
                             <div class="flex align-items-center mt-20">
@@ -158,9 +189,11 @@
                                 </div>
 
                                 <div class="w-80">
-                                    <p class="mt-10 vert"><span>iNaturalist</span> : Recensement de la biodiversité et partage d'observations. Plus orienté science participative, interface moins accessible au grand public.</p>
+                                    <p class="mt-10 vert"><span>iNaturalist</span> : Recensement de la biodiversité et
+                                        partage d'observations. Plus orienté science participative, interface moins
+                                        accessible au grand public.</p>
                                 </div>
-                                 
+
                             </div>
 
                             <div class="flex align-items-center mt-20">
@@ -170,9 +203,11 @@
                                 </div>
 
                                 <div class="w-80">
-                                    <p class="mt-10 vert"><span>Seek</span> : Identification d'espèces et système de badges. Moins focalisé sur la biodiversité d'une ville spécifique et la communauté locale.</p>
+                                    <p class="mt-10 vert"><span>Seek</span> : Identification d'espèces et système de
+                                        badges. Moins focalisé sur la biodiversité d'une ville spécifique et la
+                                        communauté locale.</p>
                                 </div>
-                                 
+
                             </div>
 
                         </div>
@@ -184,8 +219,8 @@
 
                 <!-- section UserFlow -->
 
-                <section class="mt-128" id="userflow">
-                    
+                <section class="mt-64" id="userflow">
+
                     <div class="">
                         <h4 class="bold">Userflow</h4>
                     </div>
@@ -193,14 +228,14 @@
                     <div class="mt-50">
                         <img src="assets/userflow.png" alt="userflow" class="w-100">
                     </div>
-                    
+
                 </section>
 
 
                 <!-- section Solution -->
 
-                <section class="mt-128 bg-vert-clair border-radius-10 padding-30" id="solution">
-                    
+                <section class="mt-64 bg-vert-clair border-radius-10 padding-30" id="solution">
+
                     <div>
                         <h4 class="bold">Solution</h4>
                     </div>
@@ -216,7 +251,9 @@
                                 </div>
 
                                 <div class="w-80">
-                                    <p class="blanc">Une application qui permet de reconnaitre plus de 10 000 espèces de plantes , elle indique les bons gestes à faire pour contribuer à l’environnement à partir de celle-ci .</p>
+                                    <p class="blanc">Une application qui permet de reconnaitre plus de 10 000 espèces de
+                                        plantes , elle indique les bons gestes à faire pour contribuer à l’environnement
+                                        à partir de celle-ci .</p>
                                 </div>
 
                             </div>
@@ -229,7 +266,8 @@
                                 </div>
 
                                 <div class="w-80">
-                                    <p class="mt-10 blanc">Une partie classeur pour réportorier les plantes par espèces et indiquer leurs <br>spécifications exactes.</p>
+                                    <p class="mt-10 blanc">Une partie classeur pour réportorier les plantes par espèces
+                                        et indiquer leurs <br>spécifications exactes.</p>
                                 </div>
 
                             </div>
@@ -241,7 +279,9 @@
                                 </div>
 
                                 <div class="w-80">
-                                    <p class="mt-10 blanc">Tout ça avec un système de défis qui classe les plantes et leur attribue de l’xp en fonction de la difficultée de celle-ci, en bonus un système de classement local entre joueurs de la meme ville.</p>
+                                    <p class="mt-10 blanc">Tout ça avec un système de défis qui classe les plantes et
+                                        leur attribue de l’xp en fonction de la difficultée de celle-ci, en bonus un
+                                        système de classement local entre joueurs de la meme ville.</p>
                                 </div>
 
                             </div>
@@ -249,7 +289,7 @@
                         </div>
 
                     </div>
-                    
+
                 </section>
 
 
@@ -261,66 +301,158 @@
                         <h4 class="bold">Les évolutions de Plantopia</h4>
                     </div>
 
+                    <!-- WIREFRAME -->
                     <div class="mt-20">
 
-                        <h4 class="bold mt-50 centrer">Wireframes</h4>
+                        <h2 class="bold mt-50 centrer">Wireframes</h2>
 
-                        <div class="flex gap-20 justify-content-center mt-50">
+                        <!-- sontainer scroll horizontal wireframes -->
+                        <div class="container-scrollable w-100 mt-50">
 
-
-                            <div class="w-50 centrer">
-                                <p class="ml-10 bold vert">Page d'accueil</p>
-
-                                <div class="centrer mt-10 border-radius-20">
-                                    <img src="assets/wireframe-accueil.png" alt="mid-fi-accueil" class="w-80">
-                                </div>
-
+                            <!-- img 1 -->
+                            <div class="container-scrollable-img">
+                                <p class="mb-20  vert">Home</p>
+                                <img src="assets/wireframe/Home.png" alt="" class="w-100">
                             </div>
 
-                            <div class="w-50 centrer">
+                            <!-- img 2 -->
+                            <div class="container-scrollable-img">
+                                <p class="mb-20  vert">Défis</p>
+                                <img src="assets/wireframe/defis.png" alt="" class="w-100">
+                            </div>
 
-                                <p class="ml-10 bold vert">Page défis</p>
+                            <!-- img 3 -->
+                            <div class="container-scrollable-img">
+                                <p class="mb-20 vert">Maps</p>
+                                <img src="assets/wireframe/maps.png" alt="" class="w-100">
+                            </div>
 
-                                <div class="centrer mt-10 border-radius-20">
-                                    <img src="assets/wireframe-defis.png" alt="mid-fi-défis" class="w-80">
-                                </div>
+                            <!-- img 4 -->
+                            <div class="container-scrollable-img">
+                                <p class="mb-20 vert">Floredex</p>
+                                <img src="assets/wireframe/floredex.png" alt="" class="w-100">
+                            </div>
+
+                            <!-- img 5 -->
+                            <div class="container-scrollable-img">
+                                <p class="mb-20 vert">Description</p>
+                                <img src="assets/wireframe/description.png" alt="" class="w-100">
+                            </div>
+
+                            <!-- img 6 -->
+                            <div class="container-scrollable-img">
+                                <p class="mb-20 vert">Classement</p>
+                                <img src="assets/wireframe/classement.png" alt="" class="w-100">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- MID FI -->
+                    <div class="mt-20">
+
+                        <h2 class="bold mt-50 centrer">Middle Fidelity</h2>
+
+                        <!-- sontainer scroll horizontal wireframes -->
+                        <div class="container-scrollable w-100 mt-50">
+
+                            <!-- img 1 -->
+                            <div class="container-scrollable-img">
+                                <p class="mb-20  vert">Accueil</p>
+                                <img src="assets/mid-fi-accueil.png" alt="" class="w-100">
+                            </div>
+
+                            <!-- img 2 -->
+                            <div class="container-scrollable-img">
+                                <p class="mb-20  vert">Défis</p>
+                                <img src="assets/mid-fi-defis.png" alt="" class="w-100">
+                            </div>
+
+                            <!-- img 3 -->
+                            <div class="container-scrollable-img">
+                                <p class="mb-20 vert">Map</p>
+                                <img src="assets/mid-fi/mid-fi-mockup-map.png" alt="" class="w-100">
+                            </div>
+
+                            <!-- img 4 -->
+                            <div class="container-scrollable-img">
+                                <p class="mb-20 vert">Floredex</p>
+                                <img src="assets/mid-fi/mid-fi-mockup-floredex.png" alt="" class="w-100">
+                            </div>
+
+                            <!-- img 5 -->
+                            <div class="container-scrollable-img">
+                                <p class="mb-20 vert">Classement</p>
+                                <img src="assets/mid-fi/mid-fi-mockup-classement.png" alt="" class="w-100">
+                            </div>
+
+                            <!-- img 6 -->
+                            <div class="container-scrollable-img">
+                                <p class="mb-20 vert">légende</p>
+                                <img src="assets/mid-fi/" alt="" class="w-100">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- HIGH FI -->
+                    <div class="mt-20">
+
+                        <h2 class="bold mt-50 centrer">High fidelity</h2>
+
+                        <!-- sontainer scroll horizontal wireframes -->
+                        <div class="container-scrollable w-100 mt-50">
+
+                            <!-- img 1 -->
+                            <div class="container-scrollable-img">
+                                <p class="mb-20  vert">accueil</p>
+                                <img src="assets/mid-fi-accueil.png" alt="" class="w-100">
+                            </div>
+
+                            <!-- img 2 -->
+                            <div class="container-scrollable-img">
+                                <p class="mb-20  vert">Défis</p>
+                                <img src="assets/mid-fi-defis.png" alt="" class="w-100">
+                            </div>
+
+                            <!-- img 3 -->
+                            <div class="container-scrollable-img">
+                                <p class="mb-20 vert">Map</p>
+                                <img src="assets/mid" alt="" class="w-100">
+                            </div>
+
+                            <!-- img 4 -->
+                            <div class="container-scrollable-img">
+                                <p class="mb-20 vert">Floredex</p>
+                                <img src="assets/wireframe/classement.png" alt="" class="w-100">
+                            </div>
+
+                            <!-- img 5 -->
+                            <div class="container-scrollable-img">
+                                <p class="mb-20 vert">légende</p>
+                                <img src="assets/wireframe/classement.png" alt="" class="w-100">
+                            </div>
+
+                            <!-- img 6 -->
+                            <div class="container-scrollable-img">
+                                <p class="mb-20 vert">légende</p>
+                                <img src="assets/wireframe/classement.png" alt="" class="w-100">
                             </div>
 
                         </div>
 
 
-                        <h4 class="bold centrer mt-50">Mid-Fi</h4>
-
-                        <div class="flex justify-content-center gap-20">
 
 
-                            <div class="centrer w-50 mt-20">
-                                <p class="bold vert">Page d'accueil</p>
-
-                                <div class="centrer border-radius-20">
-                                    <img src="assets/mid-fi-accueil.png" alt="mid-fi-accueil" class="w-80">
-                                </div>
-
-                            </div>
-
-                            <div class="centrer w-50 mt-20">
-                                <p class="bold vert">Page défis</p>
-
-                                <div class="centrer border-radius-20">
-                                    <img src="assets/mid-fi-defis.png" alt="mid-fi-défis" class="w-80">
-                                </div>
-                            </div>
-
-                        </div>
 
                     </div>
-                    
+
                 </section>
 
 
                 <!-- section tests Utilisateurs -->
 
-                <section class="mt-128 padding-30 border-radius-20" id="tests">
+                <section class="mt-64 padding-30 border-radius-20" id="tests">
 
                     <div class="flex ">
                         <h4 class="bold">Tests utilisateurs</h4>
@@ -343,9 +475,12 @@
                         </div>
 
                         <div class="mt-20"> <!-- div paragraphes -->
-                            <p class="vert">Premièrement nous avons changé les couleurs de la pop-up pour qu’elle soit <br> associée à une rareté spécifique.</p>
+                            <p class="vert">Premièrement nous avons changé les couleurs de la pop-up pour qu’elle soit
+                                <br> associée à une rareté spécifique.
+                            </p>
 
-                            <p class="mt-10 vert">Et pour finir Nous avons corrigé les icones changer et les emplacements de textes de <br> façon à ce que cela soit le plus clair possible.</p>
+                            <p class="mt-10 vert">Et pour finir Nous avons corrigé les icones changer et les
+                                emplacements de textes de <br> façon à ce que cela soit le plus clair possible.</p>
                         </div>
 
                     </div>
@@ -367,7 +502,9 @@
                         </div>
 
                         <div class="mt-20"> <!-- div paragraphe -->
-                            <p class="vert">Nous avons enlevé Une grosse partie du classement et augmenté la taille des <br> cases pour plus de lisibilitée.</p>
+                            <p class="vert">Nous avons enlevé Une grosse partie du classement et augmenté la taille des
+                                <br> cases pour plus de lisibilitée.
+                            </p>
                         </div>
 
                     </div>
@@ -389,7 +526,8 @@
                         </div>
 
                         <div class="mt-50 ml-50"> <!-- div paragraphe -->
-                            <p class="vert">Nous avons modifié la page (rajouter de la verdure) map car elle <br> n’était pas cohérente avec notre persona.</p>
+                            <p class="vert">Nous avons modifié la page (rajouter de la verdure) map car elle <br>
+                                n’était pas cohérente avec notre persona.</p>
                         </div>
 
                     </div>
@@ -399,14 +537,18 @@
 
                 <!-- section perspectives d'évolution -->
 
-                <section class="mt-128 padding-30" id="perspectives">
+                <section class="mt-64 padding-30" id="perspectives">
 
                     <div class="">
                         <h4 class="bold">Perspectives d'évolution</h4>
                     </div>
 
                     <div class="mt-20 bg-green padding-30 border-radius-20">
-                        <p class="blanc">Notre prototype <span>évolue en permanence</span> grâce au <span>retours des utilisateurs</span>. Les prochaines itérations viseront à <span>renforcer l’ergonomie, fluidifier l’expérience utilisateur, et intégrer des fonctionnalités collaboratives</span> pour maximiser l’engagement. Rien n’est figé, chaque retour est une opportunité <span>d’amélioration concrète !</span></p>
+                        <p class="blanc">Notre prototype <span>évolue en permanence</span> grâce au <span>retours des
+                                utilisateurs</span>. Les prochaines itérations viseront à <span>renforcer l’ergonomie,
+                                fluidifier l’expérience utilisateur, et intégrer des fonctionnalités
+                                collaboratives</span> pour maximiser l’engagement. Rien n’est figé, chaque retour est
+                            une opportunité <span>d’amélioration concrète !</span></p>
                     </div>
 
                 </section>
@@ -414,8 +556,8 @@
 
                 <!-- section team -->
 
-                <section class="mt-128 bg-bleu-clair border-radius-20 padding-30" id="team">
-                
+                <section class="mt-64 bg-vert-clair border-radius-20 padding-30" id="team">
+
                     <div class="">
                         <h4 class="bold">Team</h4>
                     </div>
@@ -445,15 +587,15 @@
                             <p class="bold">Raphaël</p>
                             <p>UI/UX designer</p>
                         </div>
-                    
+
                     </div>
-                    
+
                 </section>
 
             </div>
 
         </section>
-        
+
     </main>
 
     <footer class="flex justify-content-center padding-30 mt-20">
@@ -468,6 +610,7 @@
         </div>
 
     </footer>
-    
+
 </body>
+
 </html>
