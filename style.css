@@ -599,8 +599,12 @@ span {
 }
 
 
+#thematique {
+    scroll-margin-top: 70px;
+}
+
 #contexte {
-    scroll-margin-top: 60px;
+    scroll-margin-top: 70px;
 }
 
 #persona {
