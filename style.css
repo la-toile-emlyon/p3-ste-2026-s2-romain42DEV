@@ -532,6 +532,10 @@ span {
     border: 2px solid black;
 }
 
+.border-green-1{
+    border: 2px solid #00DF77;
+}
+
 .card-cible {
     width: 440px;
     height: 70px;
