@@ -226,6 +226,11 @@ p {
     margin-top: 100px;
 }
 
+.mt-128 {
+    margin-top: 128px;
+}
+
+
 .ml-5 {
     margin-left: 5px;
 }
@@ -243,23 +248,33 @@ p {
 }
 
 .ml-150 {
-    margin-left: 66px;
+    margin-left: 150px;
 }
 
 .ml-200 {
-    margin-left: 190px;
+    margin-left: 200px;
 }
 
 .ml-500 {
     margin-left: 500px;
 }
 
-.ml-100 {
+.ml-700 {
     margin-left: 700px;
 }
 
+
 .mb-50 {
     margin-bottom: 50px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+
+.mr-50 {
+    margin-right: 50px;
 }
 
 .mr-150 {
@@ -364,7 +379,7 @@ p {
     min-height: 100vh;
 }
 .bg-gradient-white{
-    min-height: 100vh;
+    min-height: 50vh;
 
     background: linear-gradient(
         to bottom,
